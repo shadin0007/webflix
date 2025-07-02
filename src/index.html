@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBFLIX</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link href="./output.css" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+      
+</head>
+<body class="w-[100%] h-[100%] min-h-[100%] overflow-x-hidden overflow-y-scroll bg-black">
+    <header class="relative smmobile:w-[100%] ">
+
+        <nav class=" flex laptop:h-[85px] tab:h-[85px] smmobile:h-[65px] items-center laptop:w-[82%] tab:w-[82%] smmobile:w-[90%] justify-between ">
+
+            <span><img src="assets/images/logo.png" alt="" width="183px" class="relative z-10 laptop:w-[183px] tab:w-[180px] smmobile:w-[113px]"></span>
+
+            <button class="p-12 relative z-10 text-white  font-bold laptop:text-[17px] tracking-wider bg-red-500 rounded-[7px] capitalize border-[1px] transition duration-500 border-red-500 laptop:outline-0 hover:bg-red-700 hover:border-red-700 tab:text-[17px] smmobile:text-[14px]">Sign In</button>
+        </nav>
+
+
+        <div class="laptop:h-[80%] tab:h-[80%] smmobile:h-[90%] relative flex flex-col justify-center items-center z-10 w-[100%] ">
+            <div>
+                  <h1 class="text-white laptop:text-6xl tab:text-4xl smmobile:text-[28px] tab:w-[100%] smmobile:w-[100%] tab:text-center smmobile:leading-9 tab:leading-12  laptop:w-[100%] laptop:leading-16 text-center capitalize font-martel font-extrabold ">Unlimited movies, TV <br> shows, and more</h1>
+            <p class="relative text-center text-white laptop:text-2xl tab:text-1xl laptop:font-bold tab:font-bold laptop:top-3">Starts at USD 2.99. Cancel anytime.</p>
+            </div>
+
+
+            <div class="relative z-10  text-white top-4 text-center " id="grid">
+              <p class="laptop:text-[20px] tab:text-[20px] smmobile:text-[16px] laptop:w-[100%] tab-[110%] smmobile:w-[90%] smmobile:text-center  smmobile:relative smmobile:left-[1.5rem] tab:left-0 tab:n laptop:inline-block">Ready to watch? Enter your email to create or restart your <br class="laptop:inline-block tab:hidden smmobile:hidden "> membership.</p>
+
+             
+            </div>
+            <div class="relative z-10 laptop:gap-[10px] laptop:flex tab:flex tab:gap-[10px]" id="submit">
+                <input type="text" placeholder="Email address" name="emai" required >
+
+                <button class="laptop:text-2xl tab:text-2xl smmobile:text-[20px] text-white bg-red-500 transition duration-500 font-poppins font-bold hover:bg-red-700">Get started</button>
+            </div>
+
+
+
+
+
+          
+        </div>
+
+     
+
+
+
+
+
+
+
+
+
+        <div class="h-[95vh] laptop:h-[100vh] w-[100%] bg-[rgba(1,1,1,0.6)] absolute top-[0] left-[0] smmobile:h-[100vh]"></div>
+    </header>
+
+
+
+    <section class=" w-[100%] text-white  relative " id="trending ">
+        <!-- gradient border -->
+         <div class="h-1 w-full bg-gradient-to-r from-pink-900 to-rose-900 via-red-500 rounded-full"></div>
+
+         <!-- shine/glow effect -->
+          <div class="absolute top-[5px] left-0 w-full h-3 blur-md bg-gradient-to-r from-0% via-white  opacity-40"></div>
+    
+         <!-- content -->
+         <div class=" relative top-5" id="container">
+
+          <h1 class="capitalize font-martel font-bold laptop:text-3xl smmobile:text-2xl ">trending now</h1>
+
+
+          <div class=" grid grid-cols-12 " id="grid-2">
+
+            <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/squid game.jpg" alt="" class="object-cover h-[100%] rounded-2xl">
+
+            </div>
+
+
+              <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/the graet indian.jpg" alt="" class="object-cover h-[100%] rounded-2xl ">
+
+            </div>
+
+            
+              <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/agent.jpg" alt="" class="object-cover h-[100%] rounded-2xl w-[100%]">
+
+            </div>
+
+            
+              <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/after.jpg" alt="" class="object-cover h-[100%] rounded-2xl w-[100%] ">
+
+            </div>
+
+             <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/archer.jpg" alt="" class="object-cover h-[100%] rounded-2xl w-[100%] ">
+
+            </div>
+
+             <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/black.jpg" alt="" class="object-cover h-[100%] rounded-2xl w-[100%]">
+
+            </div>
+
+            
+             <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/blade.jpg" alt="" class="object-cover h-[100%] rounded-2xl w-[100%]">
+
+            </div>
+
+            
+             <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/harrypoter.jpg" alt="" class="object-cover h-[100%] rounded-2xl w-[100%] ">
+
+            </div>
+
+            
+             <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/raid 2.jpg" alt="" class="object-cover h-[100%] rounded-2xl w-[100%]">
+
+            </div>
+
+            
+             <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/rana naidu.jpg" alt="" class="object-cover h-[100%] rounded-2xl w-[100%]">
+
+            </div>
+
+            
+             <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/rana naidu.jpg" alt="" class="object-cover h-[100%] rounded-2xl w-[100%]">
+
+            </div>
+
+            
+             <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/the cloned.jpg" alt="" class="object-cover h-[100%] rounded-2xl w-[100%]" id="img-1">
+
+            </div>
+
+            
+             <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/the manager.jpg" alt="" class="object-cover h-[100%] rounded-2xl w-[100%]">
+
+            </div>
+
+            
+             <div class="bg-[rgba(255,255,255,0.05)] h-[180px] w-[130px] laptop:h-[250px] laptop:w-[200px] rounded-2xl relative laptop:col-span-3 tab:col-span-3 smmobile:col-span-6">
+
+                <img src="assets/images/tin.jpg" alt="" class="object-cover h-[100%] rounded-2xl w-[100%]">
+
+            </div>
+
+
+
+
+
+          </div>
+
+
+
+         </div>
+        
+      <div id="bt">
+        <div id="container">
+
+
+             <h2 class=" capitalize font-martel font-bold laptop:text-2xl smmobile:text-[20px]">More reason to join</h2>
+
+
+         <div class="grid grid-cols-12 laptop:gap-[20px]  laptop:w-[100%]">
+
+            <div class="laptop:h-[300px] laptop:w-[280px] bg-gradient-to-br from-[#2a3a84]/30 via-[#3b2d68]/30 to-[#792d5a]/30  tab:h-[200px] smmobile:h-[150px] rounded-2xl laptop:col-span-3 smmobile:col-span-12" id="fk">
+                <h1 class="laptop:text-center laptop:text-3xl text-2xl">Enjoy on your TV</h1>
+                <p class=" laptop:text-[16px] text-[16px]">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+
+
+            </div>
+
+
+
+             <div class="laptop:h-[300px] laptop:w-[280px] bg-gradient-to-br from-[#2a3a84]/30 via-[#3b2d68]/30 to-[#792d5a]/30  tab:h-[200px] smmobile:h-[150px] rounded-2xl laptop:col-span-3 smmobile:col-span-12" id="fk">
+                <h1 class="laptop:text-center laptop:text-3xl text-2xl ">Download your shows to watch offline</h1>
+                <p class=" laptop:text-[16px] text-[16px] ">Save your favorites easily and always have something to watch.</p>
+
+
+            </div>
+
+
+
+            <div class="laptop:h-[300px] laptop:w-[280px] bg-gradient-to-br from-[#2a3a84]/30 via-[#3b2d68]/30 to-[#792d5a]/30  tab:h-[200px] smmobile:h-[150px] rounded-2xl laptop:col-span-3 smmobile:col-span-12" id="fk">
+                <h1 class="laptop:text-center laptop:text-3xl text-2xl">Watch everywhere</h1>
+                <p class=" laptop:text-[16px] text-[16px]">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+
+
+            </div>
+
+
+
+            
+            <div class="laptop:h-[300px] laptop:w-[290px] bg-gradient-to-br from-[#2a3a84]/30 via-[#3b2d68]/30 to-[#792d5a]/30  tab:h-[200px] smmobile:h-[150px] rounded-2xl laptop:col-span-3 smmobile:col-span-12 text-2xl" id="fk">
+                <h1 class="laptop:text-center laptop:text-3xl ">Create profiles for kids</h1>
+                <p class=" laptop:text-[16px] text-[16px]">Send kids on adventures with their favorite characters in a space made just for them — free with your membership.</p>
+
+
+            </div>
+
+
+
+
+
+
+         </div>
+
+
+         <div id="bb" class="font-martel font-bold">
+            <h1 class="laptop:text-2xl text-[20px] font-martel font-bold">Frequently Asked Questions</h1>
+
+
+         <div class="flex flex-col gap-2 capitalize">
+
+         <div class="bg-[rgba(255,255,255,0.15)] w-[100%] h-[80px] flex items-center justify-between transition duration-300 cursor-pointer  hover:bg-[rgba(255,255,255,0.21)]" id="box">
+
+            <span class="text-[20px] laptop:text-[26px]">What is netflix?</span>
+            <span class="text-[32px] laptop:text-[35px] cursor-pointer">+</span>
+         </div>
+
+           <div class="bg-[rgba(255,255,255,0.15)] w-[100%] h-[80px] flex items-center justify-between transition duration-300 cursor-pointer  hover:bg-[rgba(255,255,255,0.21)]" id="box">
+
+            <span class="text-[20px] laptop:text-[26px]">how much does netflix cost?</span>
+            <span class="text-[32px] laptop:text-[35px] cursor-pointer">+</span>
+         </div>
+
+
+
+           <div class="bg-[rgba(255,255,255,0.15)] w-[100%] h-[80px] flex items-center justify-between transition duration-300 cursor-pointer  hover:bg-[rgba(255,255,255,0.21)]" id="box">
+
+            <span class="text-[20px] laptop:text-[26px]">Where can I watch?
+</span>
+            <span class="text-[32px] laptop:text-[35px] cursor-pointer">+</span>
+         </div>
+
+
+           <div class="bg-[rgba(255,255,255,0.15)] w-[100%] h-[80px] flex items-center justify-between transition duration-300 cursor-pointer  hover:bg-[rgba(255,255,255,0.21)]" id="box">
+
+            <span class="text-[20px] laptop:text-[26px]">How do I cancel?
+</span>
+            <span class="text-[32px] laptop:text-[35px] cursor-pointer">+</span>
+         </div>
+
+
+
+           <div class="bg-[rgba(255,255,255,0.15)] w-[100%] h-[80px] flex items-center justify-between transition duration-300 cursor-pointer  hover:bg-[rgba(255,255,255,0.21)]" id="box">
+
+            <span class="text-[20px] laptop:text-[26px]">What can I watch on Netflix?
+</span>
+            <span class="text-[32px] laptop:text-[35px] cursor-pointer">+</span>
+         </div>
+
+
+
+
+           <div class="bg-[rgba(255,255,255,0.15)] w-[100%] h-[80px] flex items-center justify-between transition duration-300 cursor-pointer  hover:bg-[rgba(255,255,255,0.21)]" id="box">
+
+            <span class="text-[20px] laptop:text-[26px]">Is Netflix good for kids?
+
+
+</span>
+            <span class="text-[32px] laptop:text-[35px] cursor-pointer">+</span>
+         </div>
+
+
+         </div>
+
+
+
+
+
+         </div>
+
+
+
+         <div class="" id="wr">
+            <h1 class="text-center">Ready to watch? Enter your email to create or restart your membership.</h1>
+            <div class="flex gap-[10px] " id="none">
+                 <input type="text" placeholder="Email addres" class="w-[70%] laptop:w-[50%] border-1 border-gray-400 ">
+            <button class="laptop:text-2xl tab:text-2xl smmobile:text-[18px] text-white bg-red-500 transition duration-500 font-poppins font-bold hover:bg-red-700 ">Get started</button>
+            </div>
+           
+         </div>
+         <br> <br> <br>
+
+         <div>
+            <span> <a href="#" target="_blank" class="underline">Questions? Contact us.</a> </span>
+
+            
+            <div id="ftt" class="grid grid-cols-12">
+                <ul class="laptop:col-span-3 tab:col-span-6 smmobile:col-span-12 flex flex-col gap-[8px]">
+                    <li><a href="" target="_blank" class="underline">FAQ</a></li>
+
+                    <li><a href="" target="_blank" class="underline">Account</a></li>
+
+                    <li><a href="" target="_blank" class="underline">Investor Relations</a></li>
+
+                    <li><a href="" target="_blank" class="underline">Ways to Watch</a></li>
+                </ul>
+
+
+                
+                <ul class="laptop:col-span-3 tab:col-span-6 smmobile:col-span-12 flex flex-col gap-[8px]">
+                    <li><a href="" target="_blank" class="underline">Privacy</a></li>
+
+                    <li><a href="" target="_blank" class="underline">Corporate Information</a></li>
+
+                    <li><a href="" target="_blank" class="underline">Speed Test</a></li>
+
+                    <li><a href="" target="_blank" class="underline">Only on Netflix</a></li>
+                </ul>
+
+
+
+
+                   <ul class="laptop:col-span-3 tab:col-span-6 smmobile:col-span-12 flex flex-col gap-[8px]">
+                    <li><a href="" target="_blank" class="underline">https://help.netflix.com/</a></li>
+
+                    <li><a href="" target="_blank" class="underline">
+                    Media Center</a></li>
+
+                    <li><a href="" target="_blank" class="underline">
+                    Jobs</a></li>
+
+                    <li><a href="" target="_blank" class="underline">
+                    Terms of Use</a></li>
+                </ul>
+
+
+
+
+                   <ul class="laptop:col-span-3 tab:col-span-6 smmobile:col-span-12 flex flex-col gap-[8px]">
+                    <li><a href="" target="_blank" class="underline">
+                    Cookie Preferences</a></li>
+
+                    <li><a href="" target="_blank" class="underline">
+                    Contact Us</a></li>
+
+                    <li><a href="" target="_blank" class="underline">
+                    Legal Notices</a></li>
+
+                </ul>
+                
+
+
+
+
+
+            </div>
+
+
+
+
+
+         </div>
+
+
+
+
+       <div id="btn">
+        <button class="border-1 border-gray-400 transition duration-500  hover:bg-gray-800 hover:border-gray-800"> English</button>
+       
+       </div>
+
+
+       <div id="btn">
+        <p class="text-gray-300 tracking-wide font-poppins">Netflix Bangladesh</p>
+       </div>
+
+       <div id="btn-12">
+        <p class=" text-gray-400  font-poppins text-[13px]">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#" class="text-blue-700 underline" id="last">learn more</a> </p>
+       </div>
+        
+
+
+
+        </div>
+           
+         </div>    
+        
+
+
+    </section>
+
+
+    
+
+
+
+    
+</body>
+</html>
